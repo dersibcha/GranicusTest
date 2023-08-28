@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Granicus Test</title>
+</head>
+
+<body>
+    <div id="container">
+        <form id="myForm">
+            <div class="title-container">
+                <div>
+                    <p>Personal Information</p>
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div>
+                    <label for="middleName">Middle Name</label>
+                    <input type="text" id="middleName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" required>
+                </div>
+
+
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="streetAddress">Street Address 1*</label>
+                    <input type="text" id="streetAddress" required>
+                </div>
+                <div>
+                    <label for="streetAddress2">Street Address 2</label>
+                    <input type="text" id="streetAddress2">
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="city">City *</label>
+                    <input type="text" id="city" required>
+                </div>
+                <div>
+                    <label for="zip">Zip *</label>
+                    <input type="text" id="zip" required>
+                </div>
+            </div>
+            <div class="mail-check-container">
+                <div>
+                    <label for="mailingCheckbox">Use Residential Address for Mailing?</label>
+                    <input type="checkbox" id="mailingCheckbox">
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="mailingAddress">Mailing Address *</label>
+                    <input type="text" id="mailingAddress" required>
+                </div>
+                <div>
+                    <label for="mailingAddress2">Mailing Address</label>
+                    <input type="text" id="mailingAddress2">
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="mailingCity">Mailing City *</label>
+                    <input type="text" id="mailingCity" required>
+                </div>
+                <div>
+                    <label for="mailingZip">Mailing Zip *</label>
+                    <input type="text" id="mailingZip" required>
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" required>
+                </div>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="fax">Fax</label>
+                    <input type="tel" id="fax">
+                </div>
+                <div>
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" required>
+                </div>
+            </div>
+
+            <div class="title-container">
+                <div>
+                    <p>Acknowledgement</p>
+                </div>
+
+
+            </div>
+            <div class="terms-container">
+                <div>
+                    <p><b>PLEASE READ THE FOLLOWING STATEMENT CAREFULLY BEFORE SUBMITTING YOUR APPLICATION:</b> <br />
+                        <br />
+                        I CERTIFY THAT ALL STATEMENTS THAT I HAVE MADE ON THIS APPLICATION AND ANY OTHER SUPPLEMENTARY
+                        MATERIALS ARE TRUE
+                        AND CORRECT
+                        I HEREBY AUTHORIZE THE CITY OF TEMPLE TO INVESTIGATE THE ACCURACY OF THIS INFORMATION FROM ANY
+                        PERSON OR
+                        ORGANIZATION, AND I
+                        RELEASE THE CITY OF TEMPLE AND ALL PERSONS AND ORGANIZATION FROM ALL CLAIMS AND LIABILITIES
+                        ARISING FROM SUCH
+                        INVESTIGATION OR
+                        THE SUPPLYING OF INFORMATION FOR SUCH INVESTIGATION I ACKNOWLEDGE THAT ANY FALSE STATEMENT OR
+                        MISREPRESENTATION ON
+                        THIS
+                        APPLICATION OR SUPPLEMENTARY MATERIALS WILL BE CAUSE FOR REFUSAL OF APPOINTMENT OR IMMEDIATE
+                        DISMISSAL AT ANY TIME
+                        DURING THE
+                        PERIOD OF MY APPOINTMENT.
+                    </p>
+                </div>
+
+            </div>
+            <div class="button-container">
+                <button type="submit">Submit</button>
+                <button type="button" id="cancelButton">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

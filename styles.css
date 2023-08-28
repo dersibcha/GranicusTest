@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+form {
+    background: #fff;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    display: flex;
+     width: 1000px;
+     flex-direction: column;
+     
+align-items: center;
+}
+
+label, input, button{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+p {
+    margin: 0px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin: 0 10px 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3a3131;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #574949;
+}
+
+.title-container {
+    display: flex;
+    background-color: #182e6a;
+    color: white;
+     padding: 10px;
+  font-size: 14px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.mail-check-container {
+display: flex;
+ flex-direction: column;
+    padding: 10px;
+}
+
+.terms-container {
+display: flex;
+    padding: 10px;
+     font-size: 10px;
+}
+
+.button-container{
+display: flex;
+justify-content: center;
+gap: 5px;
+}
